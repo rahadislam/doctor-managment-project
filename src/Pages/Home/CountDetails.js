@@ -2,7 +2,7 @@ import React from 'react';
 
 const CountDetails = ({img,bg}) => {
     return (
-        <div class="hero min-h-screen">
+        <div class="hero py-10">
         <div class={`hero-content rounded-lg  py-8 flex-col lg:flex-row ${bg}`}>
             <img height={86} src={img} class="max-w-sm" />
             <div>
