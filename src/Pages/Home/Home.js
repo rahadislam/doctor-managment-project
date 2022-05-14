@@ -1,7 +1,9 @@
 import React from 'react';
 import char from '../../assets/images/chair.png'
 import Apoinment from './Apoinment';
+import Contact from './Contact';
 import Count from './Count';
+import Footer from './Footer';
 import Service from './Service';
 import Testimonial from './Testimonial';
 import Tretment from './Tretment';
@@ -24,6 +26,8 @@ const Home = () => {
         <Tretment></Tretment>
         <Apoinment></Apoinment>
         <Testimonial></Testimonial>
+        <Contact></Contact>
+        <Footer></Footer>
         </>
     );
 };
